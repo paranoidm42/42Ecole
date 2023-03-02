@@ -21,11 +21,3 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = bck;
 	*b = lnb;
 }
-
-int main()
-{
-	int x = 10;
-	int y = 5;
-	ft_ultimate_div_mod(&x,&y);
-	printf("%d, %d", x,y);
-}
